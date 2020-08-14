@@ -1,9 +1,13 @@
 from .aba_routing_recognizer import AbaRoutingRecognizer
+from .at_zmr_zahl_recognizer import AustriaNIMRecognizer
+from .at_social_insurance_no_recognizer import AustriaSIMRecognizer
 from .credit_card_recognizer import CreditCardRecognizer
+from .imei_recognizer import IMEIRecognizer
 from .crypto_recognizer import CryptoRecognizer
 from .domain_recognizer import DomainRecognizer
 from .email_recognizer import EmailRecognizer
 from .iban_recognizer import IbanRecognizer
+from .in_aadhar_card_recognizer import AadharRecognizer
 from .ip_recognizer import IpRecognizer
 from .sg_fin_recognizer import SgFinRecognizer
 from .spacy_recognizer import SpacyRecognizer
@@ -19,12 +23,16 @@ from .us_ssn_recognizer import UsSsnRecognizer
 NLP_RECOGNIZERS = {"spacy": SpacyRecognizer, "stanza": StanzaRecognizer}
 
 __all__ = [
+    "AadharRecognizer",
     "AbaRoutingRecognizer",
+    "AustriaNIMRecognizer",
+    "AustriaSIMRecognizer",
     "CreditCardRecognizer",
     "CryptoRecognizer",
     "DomainRecognizer",
     "EmailRecognizer",
     "IbanRecognizer",
+    "IMEIRecognizer",
     "IpRecognizer",
     "NhsRecognizer",
     "SgFinRecognizer",
