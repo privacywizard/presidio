@@ -10,6 +10,7 @@ from presidio_analyzer.predefined_recognizers import (
     AustriaSSPINRecognizer,
     BelgiumNationalIDRecognizer,
     BulgariaUniformCivilNumberRecognizer,
+    BelgiumBEIDRecognizer,
     CreditCardRecognizer,
     CryptoRecognizer,
     DomainRecognizer,
@@ -28,6 +29,7 @@ from presidio_analyzer.predefined_recognizers import (
     UsSsnRecognizer,
     SgFinRecognizer,
     SpacyRecognizer,
+
 )
 
 
@@ -91,6 +93,7 @@ class RecognizerRegistry:
                 AustriaSSPINRecognizer,
                 BelgiumNationalIDRecognizer,
                 BulgariaUniformCivilNumberRecognizer,
+                BelgiumBEIDRecognizer,
                 CreditCardRecognizer,
                 CryptoRecognizer,
                 DomainRecognizer,
@@ -149,7 +152,7 @@ class RecognizerRegistry:
                     rec
                     for rec in all_possible_recognizers
                     if entity in rec.supported_entities
-                    and language == rec.supported_language
+                       and language == rec.supported_language
                 ]
 
                 if not subset:

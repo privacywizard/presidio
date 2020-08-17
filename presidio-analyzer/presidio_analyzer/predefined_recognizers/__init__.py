@@ -4,6 +4,7 @@ from .at_zmr_zahl_recognizer import AustriaNIMRecognizer
 from .at_social_insurance_no_recognizer import AustriaSIMRecognizer
 from .be_national_id_recognizer import BelgiumNationalIDRecognizer
 from .bg_civil_number_recognizer import BulgariaUniformCivilNumberRecognizer
+from .be_beid_recognizer import BelgiumBEIDRecognizer
 from .credit_card_recognizer import CreditCardRecognizer
 from .dk_cpr_number_recognizer import DenmarkCPRNumberRecognizer
 from .ee_ik_recognizer import EstoniaIsikukoodRecognizer
@@ -35,6 +36,7 @@ __all__ = [
     "AustriaSSPINRecognizer",
     "BelgiumNationalIDRecognizer",
     "BulgariaUniformCivilNumberRecognizer",
+    "BelgiumBEIDRecognizer",
     "CreditCardRecognizer",
     "CryptoRecognizer",
     "DenmarkCPRNumberRecognizer",
