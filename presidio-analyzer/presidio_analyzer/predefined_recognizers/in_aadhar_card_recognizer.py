@@ -4,7 +4,7 @@ from presidio_analyzer import Pattern, PatternRecognizer
 
 class AadharRecognizer(PatternRecognizer):
     """
-    Recognizes common aadhar card numbers using regex
+    Recognizes common aadhar card numbers using regex testing
 
     """
 
