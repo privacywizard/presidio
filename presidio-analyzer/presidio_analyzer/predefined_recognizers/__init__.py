@@ -7,6 +7,7 @@ from .be_beid_recognizer import BelgiumBEIDRecognizer
 from .bg_civil_number_recognizer import BulgariaUniformCivilNumberRecognizer
 from .bg_egn_recognizer import BulgariaEGNRecognizer
 from .credit_card_recognizer import CreditCardRecognizer
+from .cz_rc_recognizer import CzechSlovakiaRCRecognizer
 from .dk_cpr_number_recognizer import DenmarkCPRNumberRecognizer
 from .ee_ik_recognizer import EstoniaIsikukoodRecognizer
 from .imei_recognizer import IMEIRecognizer
@@ -37,10 +38,11 @@ __all__ = [
     "AustriaSSPINRecognizer",
     "BelgiumNationalIDRecognizer",
     "BulgariaUniformCivilNumberRecognizer",
-    "BulgariaEGNRecognizer"
+    "BulgariaEGNRecognizer",
     "BelgiumBEIDRecognizer",
     "CreditCardRecognizer",
     "CryptoRecognizer",
+    "CzechSlovakiaRCRecognizer",
     "DenmarkCPRNumberRecognizer",
     "DomainRecognizer",
     "EmailRecognizer",
