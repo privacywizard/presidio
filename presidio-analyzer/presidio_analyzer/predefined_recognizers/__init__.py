@@ -8,7 +8,6 @@ from .bg_civil_number_recognizer import BulgariaUniformCivilNumberRecognizer
 from .bg_egn_recognizer import BulgariaEGNRecognizer
 from .credit_card_recognizer import CreditCardRecognizer
 from .cz_rc_recognizer import CzechSlovakiaRCRecognizer
-#from .dk_cpr_number_recognizer import DenmarkCPRNumberRecognizer
 from .de_pk_recognizer import GermanyPKRecognizer
 from .de_steuer_id_recognizer import GermanySteuerIDRecognizer
 from .de_vsnr_rvnr_recognizer import GermanyVSNRRVNRRecognizer
@@ -51,8 +50,13 @@ from .us_phone_recognizer import UsPhoneRecognizer
 from .us_ssn_recognizer import UsSsnRecognizer
 from .uk_ni_recognizer import UKNIRecognizer
 from .uk_nino_recognizer import UKNINORecognizer
+from .flair_recognizer import FlairRecognizer
 
-NLP_RECOGNIZERS = {"spacy": SpacyRecognizer, "stanza": StanzaRecognizer}
+NLP_RECOGNIZERS = {
+    "spacy": SpacyRecognizer,
+    "stanza": StanzaRecognizer,
+    "flair": FlairRecognizer,
+}
 
 __all__ = [
     "AadharRecognizer",
@@ -108,4 +112,5 @@ __all__ = [
     "UKNIRecognizer",
     "UKNINORecognizer",
     "NLP_RECOGNIZERS",
+    "FlairRecognizer",
 ]
