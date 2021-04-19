@@ -17,6 +17,7 @@ from .es_dni_recognizer import SpainDNIRecognizer
 from .fi_hetu_recognizer import FinlandHETURecognizer
 from .fr_nir_recognizer import FranceNIRRecognizer
 from .gr_tautotita_recognizer import GreeceTautotitaRecognizer
+from .global_vin_recognizer import GlobalVINRecognizer
 from .imei_recognizer import IMEIRecognizer
 from .ie_pps_recognizer import IrelandPPSRecognizer
 from .it_cf_recognizer import ItalyCFRecognizer
@@ -50,6 +51,7 @@ from .us_phone_recognizer import UsPhoneRecognizer
 from .us_ssn_recognizer import UsSsnRecognizer
 from .uk_ni_recognizer import UKNIRecognizer
 from .uk_nino_recognizer import UKNINORecognizer
+from .uk_license_plate_recognizer import UkLicensePlateRecognizer
 from .flair_recognizer import FlairRecognizer
 
 NLP_RECOGNIZERS = {
@@ -82,6 +84,7 @@ __all__ = [
     "GermanySteuerIDRecognizer",
     "GermanyVSNRRVNRRecognizer",
     "GreeceTautotitaRecognizer",
+    "GlobalVINRecognizer",
     "HungarySzamRecognizer",
     "HungaryTAJRecognizer",
     "IbanRecognizer",
@@ -110,6 +113,7 @@ __all__ = [
     "UsPhoneRecognizer",
     "UsSsnRecognizer",
     "UKNIRecognizer",
+    "UkLicensePlateRecognizer",
     "UKNINORecognizer",
     "NLP_RECOGNIZERS",
     "FlairRecognizer",

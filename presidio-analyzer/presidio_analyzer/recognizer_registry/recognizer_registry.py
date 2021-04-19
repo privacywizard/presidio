@@ -54,7 +54,8 @@ from presidio_analyzer.predefined_recognizers import (
     PolandPESELRecognizer,
     UKNIRecognizer,
     UKNINORecognizer,
-
+    UkLicensePlateRecognizer,
+    GlobalVINRecognizer,
 )
 
 
@@ -134,6 +135,7 @@ class RecognizerRegistry:
                 GermanySteuerIDRecognizer,
                 GermanyVSNRRVNRRecognizer,
                 GreeceTautotitaRecognizer,
+                GlobalVINRecognizer,
                 HungarySzamRecognizer,
                 HungaryTAJRecognizer,
                 IbanRecognizer,
@@ -154,6 +156,7 @@ class RecognizerRegistry:
                 SwitzerlandAVSRecognizer,
                 UKNIRecognizer,
                 UKNINORecognizer,
+                UkLicensePlateRecognizer,
             ],
         }
         for lang in languages:
