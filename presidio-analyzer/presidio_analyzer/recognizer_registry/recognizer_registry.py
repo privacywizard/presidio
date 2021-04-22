@@ -54,8 +54,6 @@ from presidio_analyzer.predefined_recognizers import (
     PolandPESELRecognizer,
     UKNIRecognizer,
     UKNINORecognizer,
-    UkLicensePlateRecognizer,
-    GlobalVINRecognizer,
 )
 
 
